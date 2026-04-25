@@ -71,9 +71,47 @@ a:hover {
     position: relative;
 }
 
-.parent1 h1 {
+/* 
+.parent1 .h {
     position: absolute;
     text-align: center;
     transform: translate(-50% -50%);
-    color: red;
+    color: greenyellow;
+    top: 5px;
+    left: 5px;
+}
+
+.parent1 p {
+    position: absolute;
+    color: black;
+    border: solid 3px plum;
+    top: 30px;
+    right: 0;
+    margin-top: 10px;
+} */
+
+.parent1 .m {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width:200px) {
+
+    .parent,
+    .parent1 {
+        background-color: blue;
+        color: brown;
+    }
+}
+
+@media (min-width:700px) {
+
+    .parent,
+    .parent1 {
+        background-color: rgb(163, 48, 83);
+        color: rgb(14, 11, 11);
+    }
 }
